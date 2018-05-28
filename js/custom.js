@@ -49,7 +49,7 @@ $(document).ready(function() {
     
     
         var locations = [
-            ["Суворова 52", 47.225547, 39.728745, "http://ewal-web.ru/assets/site/img/marker.png"],
+            ["Шолохова 7", 47.238116, 39.745126, "http://ewal-web.ru/assets/site/img/marker.png"],
            // ["Шолохова 7", 47.238116, 39.745126, "http://ewal-web.ru/assets/site/img/marker.png"],
         ];
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -62,7 +62,7 @@ $(document).ready(function() {
                 {"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},
                 {"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}
             ],
-            center: new google.maps.LatLng(47.225547, 39.728745),
+            center: new google.maps.LatLng(47.238116, 39.745126),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
